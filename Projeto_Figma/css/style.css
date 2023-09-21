@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+header{
+
+    background-image: url('../images/fundo_make.svg');
+    min-height: 450px;
+    padding: 30px 0;
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo{
+    
+    position: absolute;
+    background-size: 90% 100%;
+    width: 10px;
+    height: 10px;
+    float: left;
+    top: 0%;
+    left: 5%;
+    
+}
+
+.logo2{
+    
+    position: absolute;
+    background-size: 90% 100%;
+    width: 10px;
+    height: 10px;
+    float: left;
+    top: 6%;
+    left: 6%;
+}
+
+.menu-desktop li{
+
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav.menu-desktop a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.chamada{
+
+    padding: 150px 0;
+}
+
+.chamada h2{
+
+    color: #ffffff;
+    font-size: 45px;
+    font-family: 'Comfortaa', cursive;
+    background-color: rgba(165, 67, 100, 0.313);
+    border-radius: 80px;
+    width: 98px;
+   
+}
+
+.chamada p{
+
+    color: #ffffff;
+    font-size: 27px;
+    margin-top: 13px;
+    width: 640px;
+}
+
+.chamada form{
+
+    margin-top: 20px;
+}
+
+.chamada input[type="submit"]{
+
+    width: 180px;
+    height: 41px;
+    border-radius: 100px;
+    background-color: rgba(165, 67, 100, 0.313);
+    color: #ffffff;
+    cursor: pointer;
+    border: 0;
+    font-size: 23px;
+}
+
+.texto-descricao{
+
+    padding: 0 15px;
+    float: left;
+    width: 50%;
+}
+
+.texto-descricao h3{
+
+    color: #ac1a74;
+    font-size: 25px;
+    line-height: 33px;
+    margin-top: 25px;
+
+}
+
+.pag2{
+
+    background-image: url('../images/pag2.svg');
+    min-height: 450px;
+    padding: 30px 0;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+
+.back{
+
+    position: relative;
+    background-color: rgba(247, 155, 237, 0.742);
+    border-radius: 50px;
+    width: 400px;
+    height: 650px;
+    float: right; 
+    bottom: 250px;
+
+}
+
+.sobreposicao{
+
+    background-image: url('../images/Skin_Care.svg');
+    position: relative;
+    width: 280px;
+    height: 300px;
+    bottom: -190px;
+    border-radius: 50px;
+    
+}
+
+.meio-de-contato{
+
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 80px;
+    width: 77px;
+    height: 77px;
+    float: right; 
+    left: 83px;
+    bottom: 78px;
+}
+
+.img4{
+
+    position: relative;
+    float: right; 
+    left: 148px;
+    bottom: 65px;
+}
+
+.seta1{
+
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 80px 80px 0 0;
+    width: 90px;
+    height: 260px;
+    float: right; 
+    bottom: 170px;
+    margin-right: 400px;
+}
+
+.seta2{
+
+    background-image: url(../images/Seta_rosa.svg);
+    position: relative;
+    float: right;
+    width: 53px;
+    height: 158px;
+    bottom: 110px;
+    margin-right: -70px;
+}
+
+
+
