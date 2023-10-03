@@ -1,0 +1,132 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Young Serif', serif;
+}
+
+body{
+
+    background-image: url('../img/bg_dark.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+:root{
+
+   
+    --perfil-bg: url(../img/sol_light.svg);
+}
+
+.container{
+
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.claro{
+
+   
+    --perfil-bg: url(../img/lua_dark.svg);
+    
+}
+
+/* configurando perfil */
+
+.profile{
+
+    text-align: center;
+    padding: 25px;
+}
+
+.profile img{
+
+    width: 200px;
+}
+
+.profile p{
+
+    color: white;
+    margin-top: 15px;
+    font-weight: 900;
+}
+
+#botao{
+
+    position: relative;
+    width: 70px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#btn{
+
+    left: 0;
+    transition: left 0.5s;
+}
+
+#botao button{
+
+    background: rgb(253, 197, 252) var(--perfil-bg) no-repeat center;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    border-radius: 50%;
+    background-position: center;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+
+
+#botao button:hover{
+
+    outline: 7px solid rgba(245, 26, 245, 0.377);
+}
+
+#botao span{
+
+    display: flex;
+    width: 70px;
+    height: 25px;
+    border: 1px solid grey;
+    border-radius: 100px;
+    transform: translateX(10px); 
+    transition: transform 0.3s;
+}
+
+.lista{
+
+    position: relative;
+    text-align: center;
+    
+}
+
+.lista li{
+
+    list-style: none;
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 28px;
+    border: 5px solid rgba(252, 4, 231, 0.918);
+}
+
+.contato{
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contato img{
+
+    width: 40px;
+    height: 40px;
+    margin-left: 3px;
+    
+}
