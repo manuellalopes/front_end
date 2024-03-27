@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 20px; /* Espaçamento interno */
+  }
